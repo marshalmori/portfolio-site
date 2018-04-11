@@ -24,12 +24,14 @@ li {
   padding: 0;
 }
 
+/* Cabeçalho - Configura um fundo branco, padding e cria uma barra cinza em baixo */
 .cabecalho {
   background: #fff;
   padding: 15px;
   border-bottom: 4px solid #7d97ad;
 }
 
+/* Logo da Udacity - Insere a imagem como background e configura posições */
 .cabecalho-logo {
   background-image: url("../../media/image/logo.png");
   background-repeat: no-repeat;
@@ -41,6 +43,7 @@ li {
   margin-bottom: 20px;
 }
 
+/* Nome do proprietário do site no lado direito(desktop) e centro(tablet e celular) */
 .cabecalho-nome {
   font-size: 60px;
   color: #2d3c49;
@@ -49,6 +52,7 @@ li {
   text-align: center;
 }
 
+/* Subtítulo que fica abaixo do nome do proprietário */
 .cabecalho-subtitulo {
   font-size: 22px;
   color: #2d3c49;
@@ -58,11 +62,13 @@ li {
   text-transform: uppercase;
 }
 
+/* Configurações gerais dos conteúdos apresentados */
 .conteudo {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
+/* Título logo acima dos conteúdos */
 .conteudo-nome {
   text-align: center;
   font-size: 38px;
@@ -70,10 +76,12 @@ li {
   margin-bottom: 10px;
 }
 
+/* Centralizando a nav dos conteúdos */
 .conteudo nav {
   text-align: center;
 }
 
+/* Imagem com código - Insere a imagem como background e configura posições */
 .conteudo-imagem {
   background: url("../../media/image/code.png") #000 no-repeat;
   background-size: cover;
@@ -82,21 +90,25 @@ li {
   padding: 75px 0;
 }
 
+/* Deixa a lista sem estilo e sem padding  */
 .conteudo-projetos {
   list-style: none;
   padding: 0;
 }
 
+/* Aplica estilo nas imagens e textos do projeto  */
 .conteudo-projetos__item {
   width: 100%;
   text-align: center;
   margin-bottom: 50px;
 }
 
+/* Retira o sublinhado dos links para o Github */
 .conteudo-projetos__item a {
   text-decoration: none;
 }
 
+/* Aplica o estilo somente no texto abaixo da imagem do projeto */
 .conteudo-projetos__nome {
   color: #2d3c49;
   font-size: 50px;
@@ -105,6 +117,7 @@ li {
   margin-top: 7px;
 }
 
+/* Aplica o estilo somente na url do Github */
 .conteudo-projetos__url {
   color: #2d3c49;
   font-size: 18px;
@@ -112,19 +125,21 @@ li {
   margin-top: -33px;
 }
 
+/* Configura o container das divs */
 .container {
   margin: 0 auto;
   padding-left: 0;
   padding-right: 0;
 }
 
+/* Configura o container das imagens */
 .container-img {
   width: 100%;
   height: auto;
   text-align: center;
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Celular (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .container {
     width: 540px;
@@ -135,7 +150,7 @@ li {
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Tablets (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container {
     width: 720px;
@@ -146,7 +161,7 @@ li {
   }
 }
 
-/* Large devices (desktops, 992px and up) */
+/* Desktop (desktops, 992px and up) */
 @media (min-width: 992px) {
   .container {
     width: 940px;
@@ -185,7 +200,7 @@ li {
   }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Dispositivos com tela grande (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .container {
     width: 1140px;

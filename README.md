@@ -1,27 +1,30 @@
 
 # Portfolio Site
-<!-- Movie Trailer Site is an application that shows trailers. Clicking over the poster image and watch trailer film that you selected. -->
+Portfolio Site is an responsive application that shows your works.
 
 ## Installation
-<!-- Here are the steps of the necessary installations:
+Here are the steps of the necessary installations:
 
-1. **Install Python 3** - open this [link](https://www.python.org/downloads/), download and install Python 3 according to your operating system.
-2. **Download project** - download this project to your machine in a location of your choice.
-3. **Access the `movie_trailer` folder.**
 
-    * `$ cd movie_trailer` for Mac and Linux.
-4. **Run the command (Shell):**
-
-    * `$ python entertainment.py`
+1. **Download project** - download this project to your machine in a location of your choice.
+2. **Open the `index.html` file.**
 
 After the steps above, one page will open in your web browser as shown below:
 
-![Movie Trailer Site](media/movie_trailer_site.png) -->
+#### Extra large devices (large desktops, 1200px and up)
+![Portfolio Site](media/image/portfolio1_readme.png)
+
+#### Large devices (desktops, 992px and up)
+![Portfolio Site](media/image/portfolio2_readme.png)
+
+####  Medium devices (tablets, 768px and up)
+![Portfolio Site](media/image/portfolio3_readme.png)
+
+#### Small devices (landscape phones, 576px and up)
+![Portfolio Site](media/image/portfolio4_readme.png)
 
 ## Usage
-<!-- Click on the movie's poster you want and then will open a pop-up with the trailer showed like in the following image:
-
-![Movie Trailer Site](media/movie_trailer_site_popup.png) -->
+Click on the work's poster you want and then will open a Github repository.
 
 ## License
 Portfolio Site is released under the [MIT
